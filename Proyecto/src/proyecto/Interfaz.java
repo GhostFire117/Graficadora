@@ -1,8 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
+
 package proyecto;
 
 import static java.lang.Double.parseDouble;
@@ -383,7 +380,7 @@ public double[] Mont(){
 }
 
 
-public double[][] AddM(double Am[]){
+public double[][] AddM(double Am[]){/*Para agregar el valor de las montañas al arreglo que le pasaremos a Omar*/
     for(int bc=0;bc<k;bc++){
         v[bc][2]=Am[bc];
     }
