@@ -24,10 +24,10 @@ public class Pr {
         }        
         v=new double[tama][2];
          double p=0.0;
-         for(int i=0;i<=Math.sqrt(tama);i++){
+         for(int i=0;i<Math.sqrt(tama);i++){
          x=0.0;         
-        for(int j=0;j<=Math.sqrt(tama);j++){            
-        v[i][0]=p;
+        for(int j=0;j<Math.sqrt(tama);j++){            
+        v[(i*k)+j][0]=p;
         v[j][1]=x;
         System.out.println(v[i][0]+"\t"+v[j][1]+"\n");
         x=x+salto;       
